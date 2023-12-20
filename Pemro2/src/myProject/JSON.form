@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Alfian Bayu Nur Aji - Latihan JSON"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jScrollPane2" pref="260" max="32767" attributes="0"/>
+                  <Component id="textUrl" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="btnGetJson" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="textUrl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnGetJson" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="148" max="-2" attributes="0"/>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="textUrl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="{   &quot;args&quot;: {     &quot;color&quot;: &quot;red&quot;,      &quot;shape&quot;: &quot;oval&quot;   },    &quot;headers&quot;: {     &quot;Accept&quot;: &quot;text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7&quot;,      &quot;Accept-Encoding&quot;: &quot;gzip, deflate, br&quot;,      &quot;Accept-Language&quot;: &quot;en-GB,en;q=0.9,id-ID;q=0.8,id;q=0.7,en-US;q=0.6&quot;,      &quot;Dnt&quot;: &quot;1&quot;,      &quot;Host&quot;: &quot;httpbin.org&quot;,      &quot;Sec-Ch-Ua&quot;: &quot;\u005c&quot;Chromium\u005c&quot;;v=\u005c&quot;118\u005c&quot;, \u005c&quot;Google Chrome\u005c&quot;;v=\u005c&quot;118\u005c&quot;, \u005c&quot;Not=A?Brand\u005c&quot;;v=\u005c&quot;99\u005c&quot;&quot;,      &quot;Sec-Ch-Ua-Mobile&quot;: &quot;?0&quot;,      &quot;Sec-Ch-Ua-Platform&quot;: &quot;\u005c&quot;Windows\u005c&quot;&quot;,      &quot;Sec-Fetch-Dest&quot;: &quot;document&quot;,      &quot;Sec-Fetch-Mode&quot;: &quot;navigate&quot;,      &quot;Sec-Fetch-Site&quot;: &quot;cross-site&quot;,      &quot;Sec-Fetch-User&quot;: &quot;?1&quot;,      &quot;Sec-Gpc&quot;: &quot;1&quot;,      &quot;Upgrade-Insecure-Requests&quot;: &quot;1&quot;,      &quot;User-Agent&quot;: &quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36&quot;,      &quot;X-Amzn-Trace-Id&quot;: &quot;Root=1-65404047-78826dd567845c343ddc616f&quot;   },    &quot;origin&quot;: &quot;182.253.127.61&quot;,    &quot;url&quot;: &quot;https://httpbin.org/get?color=red&amp;shape=oval&quot; }" containsInvalidXMLChars="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="textUrlActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnGetJson">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Get JSON"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnGetJsonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="textHasil">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
